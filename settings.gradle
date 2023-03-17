@@ -1,0 +1,6 @@
+rootProject.name = 'spring-msa-demo'
+include 'config-server'
+include 'eureka-server'
+include 'gateway-server'
+include 'auth-server'
+include 'cord'
