@@ -70,7 +70,8 @@ pipeline {
                 )
             }
         }
-        stage("SSH Transfer") {
+
+        stage("Launch") {
             steps {
                 sh "sudo sh /root/cropo/deploy-config.sh"
                 sh "sudo sh /root/cropo/deploy-eureka.sh"
