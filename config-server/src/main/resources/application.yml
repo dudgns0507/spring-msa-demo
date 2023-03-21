@@ -9,3 +9,4 @@ spring:
       server:
         git:
           uri: https://github.com/dudgns0507/spring-msa-demo
+          private-key: ${private-key}
